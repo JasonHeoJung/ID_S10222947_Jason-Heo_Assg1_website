@@ -3,17 +3,45 @@ body{
   border: 0;
 }
 .flex-container1 {
-    background: #003049;
+    margin-top: 40px;
+    background: #eae2b7;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: left;
     flex-direction: row;
   }
   .picture{
-    margin: 40px;
-    border: 3px solid #d62828;
+    margin-left: 200px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 3px solid #fcbf49;
     display: flex;
     align-items: flex-end;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 1);
   }
   .intro{
-    color: #fcbf49;
+    margin: 150px;
+    color: #003049;
+  }
+  .navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: #003049;
+  }
+  .navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .navbar a.active {
+    color:black;
+    background-color: #eae2b7;
+  }
+  .navbar a:hover {
+    background-color: #f2f2f2;
+    color: black;
   }
