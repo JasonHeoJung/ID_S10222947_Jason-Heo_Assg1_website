@@ -2,6 +2,9 @@ body{
   margin: 0;
   border: 0;
 }
+.para{
+  margin: 0;
+}
 .flex-container1 {
     margin-top: 40px;
     background: #eae2b7;
