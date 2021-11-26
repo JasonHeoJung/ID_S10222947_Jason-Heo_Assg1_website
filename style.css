@@ -69,7 +69,13 @@ body {
   margin-bottom: 40px;
   border: 3px solid #fcbf49;
   display: flex;
-  border-radius: 30px;
+  border-radius: 20px;
   align-items: flex-end;
   box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 1);
+}
+.ZHPSpara {
+  margin-top: 100px;
+  margin-left: 150px;
+  font-style: roboto slab;
+  color: #003049;
 }
