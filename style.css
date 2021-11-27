@@ -56,7 +56,6 @@ body {
 }
 
 /*About Me Page*/
-/*Primary School*/
 .schooltitle {
   display: flex;
   flex-shrink: 6;
@@ -96,6 +95,20 @@ body {
   align-items: flex-end;
   box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 1);
 }
+.imgwrap {
+  position: relative;
+}
+.imgdesc {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+}
 /*Skills*/
 .Skilltitle {
   display: flex;
@@ -110,9 +123,13 @@ body {
   margin-right: 200px;
   padding: 20px;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   flex-direction: row;
 }
-.SkillsPara {
-  
+.SkillsList {
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 20px;
+  justify-content: left;
+  flex-direction: column;
 }
