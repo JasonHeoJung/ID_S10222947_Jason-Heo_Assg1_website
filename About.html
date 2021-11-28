@@ -1,53 +1,73 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>About Me</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-</head>
-<body>
-  <!-- Navigation Bar -->
-  <div class = "navbar">
-    <a href="index.html">Home</a>
-    <a class="active" href="About.html">About</a>
-    <a href="Projects.html">Projects</a>
-    <a href="Contact.html">Contact</a>
-  </div>
-  <!-- Education History -->
-  <h1 class = "title"> Education History</h1>
-  <section class = "schoolcontainer">
-    <a href = "https://zhenghuapri.moe.edu.sg/" title = "Zhenghua Primary School">
-      <img class = 'ZHPSimg' src="ZHPS.png" width = "200" height = "260">
-    </a>
-    <a href = "https://queenswaysec.moe.edu.sg/" title = "Queensway Secondary School">
-      <img class = 'QSSimg' src="Qss.png" width = "200" height = "260">
-    </a>
-    <a href = "https://www.np.edu.sg" title = "Ngee Ann Polytechnic">
-      <img class = 'NPimg' src="NP.png" width = "200" height = "260">
-    </a>
-  </section>
-  <h1 class = "title"> Skills </h1>
-  <div class = "Skillscontainer">
-    <h1 class = "Skilltitle">Soft Skills</h1>
-    <h1 class = "Skilltitle">Hard Skills</h1>
-  </div>
-  <div class = "Skillscontainer">
-    <ol class = "SkillsList">
-      <li>Teamwork</li>
-      <li>Problem-solving</li>
-      <li>Empathy</li>
-      <li>Adaptability</li>
-      <li>Creativity</li>
-    </ol>
-    <ol class = "SkillsList">
-      <li>Python</li>
-      <li>C#</li>
-      <li>Report Writing</li>
-      <li>Web Design</li>
-      <li>Presentations</li>
-    </ol>
-  </div>
-  <script src="script.js"></script>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>About Me</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <div class="navbar">
+      <a href="index.html">Home</a>
+      <a class="active" href="About.html">About</a>
+      <a href="Projects.html">Projects</a>
+      <a href="Contact.html">Contact</a>
+    </div>
+    <!-- Education History -->
+    <h1 class="title">Education History</h1>
+    <section class="schoolcontainer">
+      <a href="https://zhenghuapri.moe.edu.sg/" title="Zhenghua Primary School">
+        <img class="ZHPSimg" src="ZHPS.png" width="200" height="260" />
+      </a>
+      <a
+        href="https://queenswaysec.moe.edu.sg/"
+        title="Queensway Secondary School"
+      >
+        <img class="QSSimg" src="Qss.png" width="200" height="260" />
+      </a>
+      <a href="https://www.np.edu.sg" title="Ngee Ann Polytechnic">
+        <img class="NPimg" src="NP.png" width="200" height="260" />
+      </a>
+    </section>
+    <h1 class="title">Skills</h1>
+    <section class="SkillsContainer">
+      <div class="ListContainer">
+        <h1 class="Skilltitle">Soft Skills</h1>
+        <ul class="skills">
+          <li>Teamwork</li>
+          <li>Problem-solving</li>
+          <li>Empathy</li>
+          <li>Adaptability</li>
+          <li>Creativity</li>
+        </ul>
+      </div>
+      <div class="ListContainer">
+        <h1 class="Skilltitle">Hard Skills</h1>
+        <ul class="skills">
+          <li>Python</li>
+          <li>C#</li>
+          <li>Report Writing</li>
+          <li>Web Design</li>
+          <li>Presentations</li>
+        </ul>
+      </div>
+    </section>
+    <h1 class="title">Interests</h1>
+    <section class="InterestContainer">
+      <img
+        class="tkdimg"
+        src="Taekwondo.jpg"
+        alt="Taekwondo"
+        width="400"
+        height="300"
+      />
+      <p>
+        I enjoy doing Taekwondo and have entered<br />
+        many national competitions in Kyorugi
+      </p>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
 </html>
