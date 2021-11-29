@@ -1,6 +1,9 @@
 # ID_S10222947_Jason-Heo_Assg1_website
 
 Assignment 1 of ID
+
+This Website showcases my profile and consists of the skills and experiences i have attained during this small time.
+
 Zhenghua Primary Image Source: https://www.google.com/url?sa=i&url=https%3A%2F%2Fm.facebook.com%2Fzhenghuapri%2F&psig=AOvVaw1_RYGZST9h2hUgkcV4weTr&ust=1638193199582000&source=images&cd=vfe&ved=0CAwQjhxqFwoTCIiy17CXu_QCFQAAAAAdAAAAABAD
 
 Queensway Secondary Image Source: https://upload.wikimedia.org/wikipedia/en/5/56/Queensway_Secondary_School_seal.png
