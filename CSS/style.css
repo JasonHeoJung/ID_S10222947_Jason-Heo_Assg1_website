@@ -415,6 +415,15 @@ body {
   justify-content: center;
   font-size: 40px;
 }
+.smallertitle {
+  display: flex;
+  flex-shrink: 6;
+  margin-top: 70px;
+  margin-bottom: 0px;
+  justify-content: center;
+  font-size: 28px;
+}
+/* Education History */
 .schoolcontainer {
   margin-left: 200px;
   margin-right: 200px;
@@ -466,12 +475,6 @@ body {
   flex-direction: row;
   justify-content: space-evenly;
 }
-.Skilltitle {
-  justify-content: center;
-  margin-left: 20px;
-  margin-bottom: 0;
-  font-size: 28px;
-}
 .ListContainer {
   display: flex;
   justify-content: left;
@@ -507,4 +510,12 @@ ul {
   margin-top: 100px;
   margin-left: 100px;
   font-size: 20px;
+}
+
+/* Projects */
+.ProjectContainer {
+  margin: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
