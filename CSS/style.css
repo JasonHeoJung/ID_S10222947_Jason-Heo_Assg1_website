@@ -519,3 +519,13 @@ ul {
   flex-direction: row;
   justify-content: center;
 }
+.pythonimg {
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 1);
+  border: 3px solid #fcbf49;
+  size: 70%;
+}
+.Projectpara {
+  margin-top: 100px;
+  margin-left: 100px;
+  font-size: 20px;
+}
