@@ -18,23 +18,29 @@
     <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
     <!-- Contact Form -->
     <div class="formcontainer">
-      <form action="">
+      <form
+        name="contact"
+        onsubmit="return confirm('Do you really want to submit the form?');"
+      >
         <label>Name</label>
-        <input type="text" placeholder="Your name..." />
+        Name: <input type="text" placeholder="Your name..." required />
 
         <label>Your Email</label>
-        <input type="text" placeholder="Your Email..." />
+        Email: <input type="text" placeholder="Your Email..." required />
 
         <label>Subject</label>
-        <input type="text" placeholder="Subject" />
+        Subject: <input type="text" placeholder="Subject" required />
 
-        <label></label>
+        <label>Content</label>
+        Content:
         <textarea
           placeholder="Write something.."
           style="height: 200px"
+          name="Content"
+          required
         ></textarea>
 
-        <input type="submit" />
+        <input type="submit" value="Submit" />
       </form>
     </div>
     <script src="JS/script.js"></script>
