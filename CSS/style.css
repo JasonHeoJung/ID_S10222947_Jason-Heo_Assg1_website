@@ -554,12 +554,13 @@ ul {
   border: 3px solid #fcbf49;
   size: 50%;
 }
-
 /* Contact Form */
 .formcontainer {
   margin: 50px;
   border-radius: 5px;
   padding: 20px;
+  display: flex;
+  justify-content: center;
 }
 input[type="submit"] {
   background-color: #003049;
@@ -582,4 +583,16 @@ textarea {
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
+}
+/* Contact Info */
+.infocontainer {
+  margin: 50px;
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.linkedin {
+  height: 50px;
+  width: 50px;
 }

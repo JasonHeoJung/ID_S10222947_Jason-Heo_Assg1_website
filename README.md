@@ -11,3 +11,5 @@ Queensway Secondary Image Source: https://upload.wikimedia.org/wikipedia/en/5/56
 Ngee Ann Poly Image Source: https://pngimage.net/wp-content/uploads/2018/06/ngee-ann-poly-png-1.png
 
 Taekwondo Image Source: https://upload.wikimedia.org/wikipedia/commons/5/5d/Milad_Kharchegani_at_the_2016_Summer_Olympics.jpg
+
+LinkedIn Logo Source: https://cdn-icons-png.flaticon.com/512/174/174857.png
