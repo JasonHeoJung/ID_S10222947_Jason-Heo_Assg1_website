@@ -592,6 +592,7 @@ textarea {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
+  background-color: #003049;
 }
 .linkedin {
   margin-top: 80px;
