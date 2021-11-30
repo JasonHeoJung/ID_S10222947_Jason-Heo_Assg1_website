@@ -401,8 +401,13 @@ body {
   background-color: #555; /* Add a dark-grey background on hover */
 }
 /*The first page of the website*/
+.HomeIntro {
+  margin: 0;
+  font-size: 50px;
+}
 .para {
   margin: 0;
+  font-size: 28px;
 }
 .intro-para {
   margin-top: 40px;
@@ -592,6 +597,10 @@ textarea {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
+}
+.infotext {
+  justify-content: center;
+  text-align: center;
 }
 .linkedin {
   margin-top: 80px;
