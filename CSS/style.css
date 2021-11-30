@@ -590,9 +590,15 @@ textarea {
   border-radius: 5px;
   padding: 20px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  flex-direction: row;
 }
 .linkedin {
+  margin-top: 80px;
   height: 50px;
   width: 50px;
+  background-color: white;
+  border-radius: 5px;
+}
+.infobackground {
 }
