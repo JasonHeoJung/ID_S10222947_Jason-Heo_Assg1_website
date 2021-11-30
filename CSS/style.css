@@ -547,7 +547,7 @@ ul {
 .pythonimg {
   box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 1);
   border: 3px solid #fcbf49;
-  size: 70%;
+  resize: 70%;
 }
 .Projectpara {
   margin-top: 100px;
@@ -557,7 +557,6 @@ ul {
 .splashscreenimg {
   box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 1);
   border: 3px solid #fcbf49;
-  size: 50%;
 }
 /* Contact Form */
 .formcontainer {
