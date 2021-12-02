@@ -1,3 +1,3 @@
-function topFunction() {
+function top() {
   document.documentElement.scrollTop = 0;
 }

@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <title>Contact</title>
-    <link href="CSS/normalize.css" rel="stylesheet" >
+    <link href="CSS/normalize.css" rel="stylesheet" />
     <link href="CSS/style.css" rel="stylesheet" />
   </head>
   <body>
@@ -19,22 +19,40 @@
       </nav>
     </header>
     <!-- back to top -->
-    <button onclick="topFunction()" id="ToTop" title="Go to top">^</button>
+    <button onclick="top()" id="ToTop" title="Go to top">^</button>
     <!-- Contact Form -->
     <h1 class="title">Contact Me!</h1>
     <section class="formcontainer">
       <form
         name="contact"
-        onsubmit= "return alert('Thanks For Reaching Out To me!');"
+        onsubmit="return alert('Thanks For Reaching Out To me!');"
       >
         <label>Name</label>
-        <input name= "name" id="name" type="text" placeholder="Your name..." required />
+        <input
+          name="name"
+          id="name"
+          type="text"
+          placeholder="Your name..."
+          required
+        />
 
         <label>Your Email</label>
-        <input name= "email" id="email" type="text" placeholder="Your Email..." required />
+        <input
+          name="email"
+          id="email"
+          type="text"
+          placeholder="Your Email..."
+          required
+        />
 
         <label>Subject</label>
-        <input name= "subject" id="subject" type="text" placeholder="Subject" required />
+        <input
+          name="subject"
+          id="subject"
+          type="text"
+          placeholder="Subject"
+          required
+        />
 
         <label>Content</label>
 
@@ -46,7 +64,7 @@
           required
         ></textarea>
 
-        <input type="submit" id="btnSubmit" value="Submit"/>
+        <input type="submit" id="btnSubmit" value="Submit" />
       </form>
     </section>
     <!-- Information -->

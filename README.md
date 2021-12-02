@@ -2,6 +2,15 @@
 
 Assignment 1 of ID
 
+The purpose of this website is to show recruiters who are browsing
+the website, my skills, education, awards and projects. This is so
+as to show that i am a capable person so that i have a higher chance
+of getting hired.
+
+This website provides information such as my education history,
+skillsets, projects i have done in the past as well as my work
+experience and interests. This is so as to provide the more important information to recruiters trying to hire me.
+
 This Website showcases my profile and consists of the skills
 and experiences i have attained during this small time.
 The website has 4 HTML Files and 1 CSS file. The 4 HTML files
